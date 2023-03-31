@@ -9,7 +9,7 @@
     <depends optional="true" config-file="action-group.xml">com.intellij.modules.lang</depends>
     <depends optional="true" config-file="java.xml">com.intellij.java</depends>
     <depends optional="true" config-file="kotlin.xml">org.jetbrains.kotlin</depends>
-    <depends optional="true" config-file="database.xml">com.intellij.database</depends>
+
 
     <description>
         <![CDATA[
@@ -38,6 +38,9 @@
                 </component>-->
         <component>
             <implementation-class>jiux.net.plugin.restful.navigator.RestServiceDetail</implementation-class>
+        </component>
+        <component>
+            <implementation-class>jiux.net.plugin.restful.navigator.RestServicesRequestManager</implementation-class>
         </component>
     </project-components>
 

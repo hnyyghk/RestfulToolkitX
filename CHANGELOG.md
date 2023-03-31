@@ -3,6 +3,24 @@
 # RestfulToolkitX Changelog
 ## [Unreleased]
 
+## [2.1.3] - 2023-03-19
+### Removed
+- 移除未成熟的代码生成器
+- Remove less maturity code generators.
+
+
+## [2.1.2] - 2023-01-24
+### Added
+- 支持服务窗口选中 Rest 服务右键保存请求参数
+- You can right-click a rest service in the service navigator panel to save request parameters
+
+## [2.1.1] - 2023-01-17
+### Added
+- 解决 IDEA 2022.3 启动报错的问题 [#81]https://github.com/huangbaihua001/RestfulToolkitX/issues/87
+- Fixed the startup error of IDEA 2022.3 [#81]https://github.com/huangbaihua001/RestfulToolkitX/issues/87
+
+
+
 ## [2.1.0] - 2023-01-08
 ### Added
 - 修复导致打开两个窗口的问题 [#79]https://github.com/huangbaihua001/RestfulToolkitX/issues/79
